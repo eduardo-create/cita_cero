@@ -11,20 +11,23 @@ body {
 
 .title__center {
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  font-family: "Acme", sans-serif;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  font-family: 'Acme', sans-serif;
+  font-size: 3.5rem;
 }
-.title__center .title__center--h1 {
-  font-size: 3rem;
-}
+
 .title__center .title__center--h3 {
   font-size: 2rem;
-  color: #654062;
+  color: #9900ff;
+}
+
+.font-family {
+  font-family: 'Acme', sans-serif;
 }
 
 .bg {
-  background-color: #f6830f;
+  background-image: linear-gradient(to top right, #6573ff, #6f72f7, #7872ef, #8271e7, #8b70df, #956fd7, #9e6fd0, #a86ec8, #b16dc0, #bb6cb8, #c46cb0, #ce6ba8);
 }
 
 .section__center {
@@ -32,10 +35,11 @@ body {
   padding-top: 150px;
   padding-bottom: 150px;
 }
+
 .section__center .title__center--h2 {
   margin-bottom: 40px;
-  font-size: 3rem;
-  font-family: "Acme", sans-serif;
+  font-size: 2.5rem;
+  font-family: 'Acme', sans-serif;
 }
 
 .title__center--p {
@@ -46,7 +50,7 @@ body {
 span {
   font-weight: bold;
   font-size: 30px;
-  color: #654062;
+  color: #f8f1f1;
 }
 
 .container-svg .row .cards-padd {
@@ -69,4 +73,10 @@ span {
 
 .text_purple {
   color: #654062;
+  font-size: 1.5rem;
 }
+
+.color-violet {
+  color: #9900ff;
+}
+/*# sourceMappingURL=custom.css.map */
